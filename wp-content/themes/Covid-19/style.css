@@ -1,0 +1,65 @@
+/*
+Theme Name: Covid-19
+Author: the WordPress team
+Description: Sitio One page enfocado en la temática del Covid-19. 
+Version: 1.0
+*/
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+    color: #0c5ba3;
+}
+
+.img-fluida {
+    width: 100%;
+    float: left;
+}
+
+.img-fluida img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-fluida-medium {
+    width: 100%;
+    float: left;
+}
+
+.img-fluida-medium img {
+    max-width: 70%;
+    height: auto;
+}
+
+.border {
+    width: 100%;
+    float: left;
+    border-bottom: 5px solid #6181e6;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    padding: 25px 0;
+    background: #ffffff;
+    border-top: 3px dotted #39438b;
+}
+
+footer h6 {
+    padding-top: 55px;
+}
+
+.bg-whiter {
+    background-color: #f3f3f3;
+}
+
+#mysticky-nav .myfixed a {
+    color: #ffffff;
+}
